@@ -1,0 +1,10 @@
+@import './SCSS/base/normalize';
+@import './SCSS/base/variables';
+@import './SCSS/mixins/mixins';
+
+// COMPONENTS
+
+@import './SCSS/modules/components/Header/Header';
+@import './SCSS/modules/components/Banner/Banner';
+@import './SCSS/modules/components/Search/Search';
+@import './SCSS/modules/components/Main/Main';

@@ -1,0 +1,41 @@
+// Paleta de colores
+
+$primercolor: black;
+$segundocolor:white;
+$tercercolor: rgb(124, 169, 221);
+$cuartocolor: #0e4996;
+$quintocolor:rgba(0, 0, 0, 0.4);
+
+
+// Tamaño fuente
+$header: 0.9em;
+$bannertitulo: 1.4em;
+$bannerparrafo: 0.7em;
+//$parrafo1:
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.Grupo-Font1 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   letter-spacing: 0.05em;
+}
+.Grupo-Font2 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.Main-Nombres {
+    color: $cuartocolor;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.Main-Fecha {
+    color: $quintocolor;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+}

@@ -1,0 +1,45 @@
+.Main {
+    width: 64%;
+        
+    &-Popular {
+        font-size: $header;
+        color: $tercercolor;
+    }
+    &-Top {
+        display: flex;
+        
+        @include mq(700px) {
+            flex-direction:column;
+
+        }
+
+
+               
+        &-Info {
+            font-size: $bannertitulo;
+            margin-right: 20px;
+        }
+        &-Footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+                   
+        &-Iconos {
+            width: 70px;;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+
+        &-Imagen {
+           width: 500px; 
+        }
+
+        
+    }
+
+
+}

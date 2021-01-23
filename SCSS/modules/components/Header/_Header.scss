@@ -1,0 +1,28 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &-logo {
+        max-width: 100%;
+        display: block;
+    }
+
+    &-Menu {
+        width: 300px;
+    }
+
+    &-ListItem {
+        display: flex;
+        justify-content: space-between;
+    }
+    &-Item {
+        list-style: none;
+    }
+    &-Link {
+        text-decoration: none;
+        color: $primercolor;
+        font-size: $header;
+    }
+
+}
